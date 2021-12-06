@@ -90,7 +90,16 @@ namespace Lab10Starter
         /// </summary>
         private void ResetGame()
         {
-
+            Tile00.Content = "";
+            Tile01.Content = "";
+            Tile02.Content = "";
+            Tile10.Content = "";
+            Tile11.Content = "";
+            Tile12.Content = "";
+            Tile20.Content = "";
+            Tile21.Content = "";
+            Tile22.Content = "";
+            ticTacToe.ResetGame();
         }
 
     }
