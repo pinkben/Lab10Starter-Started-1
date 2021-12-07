@@ -44,6 +44,10 @@ namespace Lab10Starter
             {
                 return scores[(int)Player.X];
             }
+            set
+            {
+                scores[(int)Player.X] = value;
+            }
         }
 
         /// <summary>
@@ -54,6 +58,10 @@ namespace Lab10Starter
             get
             {
                 return scores[(int)Player.O];
+            }
+            set
+            {
+                scores[(int)Player.O] = value;
             }
         }
 

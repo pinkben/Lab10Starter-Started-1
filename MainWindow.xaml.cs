@@ -68,8 +68,15 @@ namespace Lab10Starter
 
             if (gameOver)
             {
+                if (ticTacToe.IsThereAWinner() == Player.O)
+                {
+                    ticTacToe.OScore++;
+                }
+                else if (ticTacToe.IsThereAWinner() == Player.X)
+                {
+                    ticTacToe.XScore++;
+                }
                 CelebrateVictory(victor);
-                
             }
         }
 
